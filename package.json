@@ -1,0 +1,25 @@
+{
+    "name": "lecongorg",
+    "version": "1.0.0",
+    "description": "lecong.org",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Phuong LeCong",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.5.2",
+        "gulp": "^3.8.11",
+        "gulp-clean-css": "^3.0.3",
+        "gulp-concat": "^2.5.2",
+        "gulp-jshint": "^1.10.0",
+        "gulp-less": "^3.0.2",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^1.3.3",
+        "gulp-sourcemaps": "^1.5.1",
+        "gulp-uglify": "^1.1.0",
+        "jshint": "^2.9.4",
+        "less-plugin-clean-css": "^1.5.0"
+    }
+}

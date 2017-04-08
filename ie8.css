@@ -1,0 +1,7 @@
+.container { width: 480px; margin: 0 auto; }
+.wrapper-middle { display: table-cell; vertical-align: middle; padding: 1em;}
+.wrapper { display: table; height: 100%; width: 100%; padding: 0;}
+picture { height: 100%; float: left; margin-right: 16px; }
+main { float: none; margin-left: 116px; }
+img.profile { width: 100px; height: 100px;}
+section {line-height: 1.4;}
