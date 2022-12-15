@@ -1,0 +1,130 @@
+/*! https://www.joshwcomeau.com/css/custom-css-reset/ */
+*, *::before, *::after {box-sizing: border-box;}* {margin: 0;}html, body {height: 100%;}body {line-height: 1.5;-webkit-font-smoothing: antialiased;}img, picture, video, canvas, svg {display: block;max-width: 100%;}input, button, textarea, select {font: inherit;}p, h1, h2, h3, h4, h5, h6 {overflow-wrap: break-word;}#root, #__next {isolation: isolate;}
+
+
+header {
+  color: #555;
+  font-size: 1.2rem;
+}
+ul.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 2rem;
+}
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+  font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f6f6fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  width: clamp(100%, 80vw, 48rem);
+  max-width: 48rem;
+}
+
+picture {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.container {
+  min-width: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 33rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+p {
+  margin-block-end: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+a,
+a:hover,
+a:active,
+a:visited {
+  color: #555;
+}
+a span {
+  color: #555;
+}
+a.highlight,
+a.highlight span {
+  transition: color 250ms ease-out;
+}
+a.highlight,
+a.highlight:hover,
+a.highlight:active,
+a.highlight:visited {
+  color: #888;
+}
+a.highlight.highlight-wmp:hover span {
+  color: #656d70;
+}
+a.highlight.highlight-wmp:hover span.west {
+  color: #fdb415;
+}
+a.highlight.highlight-wmp:hover span.monroe {
+  color: #003d6a;
+}
+a.highlight.highlight-twitter:hover span {
+  color: #55ACEE;
+}
+a.highlight.highlight-linkedin:hover span {
+  color: #0077B5;
+}
+a.highlight.highlight-github:hover span {
+  color: #4183c4;
+}
+a.highlight.highlight-flickr:hover span {
+  color: #ff0084;
+}
+.contact,
+.summary {
+  color: #888;
+}
+.contact {
+  font-size: 1.2rem;
+}
+.contact .fa {
+  padding-right: 0.25em;
+}
+.contact li {
+  margin-bottom: 0.25em;
+}
+.contact li a {
+  display: block;
+}
+img.profile {
+  border-radius: 0.5em;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  height: clamp(4rem, 30vw, 12rem);
+  width: clamp(4rem, 30vw, 12rem);
+}
+
