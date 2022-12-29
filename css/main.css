@@ -1393,8 +1393,16 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .box-border {
@@ -1503,10 +1511,6 @@ video {
 
 .\!hidden {
   display: none !important;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .h-1 {
@@ -3114,8 +3118,12 @@ video {
 }
 
 html {
-  height: 100vh;
   height: -webkit-fill-available;
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 a.highlight {
