@@ -41,6 +41,7 @@ jobs:
       - name: Run Build
         run: |
           npm ci
+          npm run tailwind
           npm run build
 
       - name: Upload artifact
