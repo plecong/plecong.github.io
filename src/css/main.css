@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100vh;
+}
+
+a.highlight {
+  transition: color 250ms ease-out;
+}
+a.highlight-twitter:hover {
+  color: #55ACEE;
+}
+a.highlight-linkedin:hover {
+  color: #0077B5;
+}
+a.highlight-github:hover {
+  color: #4183c4;
+}
+
+img.profile {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  height: clamp(4rem, 30vw, 12rem);
+  width: clamp(4rem, 30vw, 12rem);
+}
+

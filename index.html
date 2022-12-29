@@ -2,49 +2,57 @@
 layout: layouts/base.njk
 ---
 
-<main>
-    <picture>
-        <img srcset="/img/portrait.jpg" class="profile" title="Phuong LeCong" alt="Profile Photo" />
-    </picture>
+<div class="container max-w-3xl flex flex-col m-2 md:m-8 p-2 md:flex-row">
+  <picture class="mr-8 shrink-0">
+    <img
+      srcset="/img/portrait.jpg"
+      class="profile mb-4 drop-shadow-sm"
+      title="Phuong LeCong"
+      alt="Profile Photo"
+    />
+  </picture>
 
-    <div class="container">
-        <header>
-            <h1>Phuong LeCong</h1>
-            <ul class="nav title">
-                <li>Nerd.</li>
-                <li><span>Senior Manager</span> at <span class="company">Deloitte<span></li>
-            </ul>
-        </header>
+  <div class="">
+    <header class="flex flex-col gap-2 mb-2">
+      <h1
+        class="text-slate-900 text-4xl md:text-5xl font-extrabold tracking-tight"
+      >
+        Phuong LeCong
+      </h1>
+      <h3 class="text-slate-600 text-xl">Builder, Solver, Advisor</h3>
+      <p class="text-slate-500">
+        A seasoned technologist with 20 years of experience across a broad
+        spectrum of industries focusing on Healthcare Payers. A capable
+        full-stack engineer able to dive deep to drive transformative technology
+        solutions at the intersection of cloud and data.
+      </p>
+    </header>
 
-        <section class="summary">
-            <p>A seasoned technologist with over 10 years of IT experience across a
-                broad spectrum of industries. He has worked both in large-scale
-                organizations and has spent time building an early-stage Silicon Valley
-                technology startup. His expertise lies in optimizing the entire
-                software development lifecycle from definition, to development, to delivery.
-            </p>
-
-            <p>Interested in technology, startups, programming, and photography.</p>
-        </section>
-
-        <section class="contact">
-            <ul class="nav">
-                <li>
-                    <a href="https://twitter.com/plecong" target="_blank" title="@plecong on Twitter" class="highlight highlight-twitter">
-                        <span><i class="fa fa-twitter"></i> @plecong</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/plecong" target="_blank" title="plecong on GitHub" class="highlight highlight-github">
-                        <span><i class="fa fa-github"></i> github.com/plecong</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/plecong" target="_blank" title="Phuong LeCong on LinkedIn" class="highlight highlight-twitter">
-                        <span><i class="fa fa-linkedin"></i> LinkedIn</span>
-                    </a>
-                </li>
-            </ul>
-        </section>
-    </div>
-</main>
+    <section class="flex text-lg text-slate-500 gap-4">
+      <a
+        href="https://github.com/plecong"
+        target="_blank"
+        title="plecong on GitHub"
+        class="highlight highlight-github block"
+      >
+        <span><i class="fa-brands fa-github pr-1"></i>GitHub</span>
+      </a>
+      <a
+        href="https://twitter.com/plecong"
+        target="_blank"
+        title="@plecong on Twitter"
+        class="highlight highlight-twitter block"
+      >
+        <span><i class="fa-brands fa-twitter pr-1"></i>Twitter</span>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/plecong"
+        target="_blank"
+        title="Phuong LeCong on LinkedIn"
+        class="highlight highlight-twitter block"
+      >
+        <span><i class="fa-brands fa-linkedin-in pr-1"></i>LinkedIn</span>
+      </a>
+    </section>
+  </div>
+</div>

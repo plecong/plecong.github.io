@@ -1,0 +1,27 @@
+{
+  "name": "plecong.github.io",
+  "private": true,
+  "author": "",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "tailwind": "tailwindcss -i ./src/css/main.css -o ./css/main.css",
+    "tailwind:watch": "tailwindcss -i ./src/css/main.css -o ./css/main.css --watch"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@octokit/rest": "^19.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plecong/plecong.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plecong/plecong.github.io/issues"
+  },
+  "homepage": "https://github.com/plecong/plecong.github.io#readme",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.8",
+    "tailwindcss": "^3.2.4"
+  }
+}
