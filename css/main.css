@@ -4484,6 +4484,10 @@ img.profile {
     flex-direction: row;
   }
 
+  .md\:items-center {
+    align-items: center;
+  }
+
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
