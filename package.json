@@ -9,8 +9,8 @@
     "tailwind:watch": "tailwindcss -i ./src/css/main.css -o ./css/main.css --watch"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.2",
-    "@octokit/rest": "^19.0.5"
+    "@11ty/eleventy": "^2.0.0",
+    "@octokit/rest": "^19.0.7"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/plecong/plecong.github.io#readme",
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.8",
-    "tailwindcss": "^3.2.4"
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwindcss": "^3.2.7"
   }
 }
